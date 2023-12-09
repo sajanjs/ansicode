@@ -1,0 +1,16 @@
+#!/bin/bash
+#Perform Arithmetic operations using expr Keyword
+#obtain operands from command line
+#
+echo "the given operads are : $@"
+echo "the addition of $1 and $2 is: "
+expr $1 + $2
+echo "the substraction of $1 and $2 is: "
+#changes done
+expr $1 - $2
+echo "the Multiplication of $1 and $2 is: "
+expr $1 \* $2
+echo "the Division of $1 and $2 is: "
+expr $1 / $2
+echo "Module value  of $1 % $2 is: "
+expr $1 % $2
